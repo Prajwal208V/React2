@@ -21,7 +21,7 @@ export class Inputs extends Component {
 
     handleSubmit = (event) => {
         console.log(this.sate);
-        event.preventDefault();
+        event.preventDefault(); //checking geeting all data this point properly / not
         console.log(this.sate);
 
         const tempObj = {
